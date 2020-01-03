@@ -41,11 +41,6 @@ Notes:
 |[Blueprint](https://blueprintjs.com/)|[15k](https://github.com/palantir/blueprint/blob/develop/packages/core/src/components/button/buttons.tsx)|CSS file, clean classes, prefixed|integrated SVG|⋆⋆|Clean industrial design, TS, use sass, no ref no tag|
 
 
-**And the winner is... Primereact !**
-
-I will try it, and update this page later.
-
-
 ## Others React UI Frameworks
 
 - **Carbon Design system** (IBM) sounds correct but the design is not very nice
