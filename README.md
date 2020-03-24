@@ -86,7 +86,7 @@ With:
   
 ```
 Or with component:
-```html
+```jsx
   <Icon type="delete-user" /> or even
   <DeleteUserIcon />
 ```
@@ -94,7 +94,11 @@ Or with component:
 That is a problem for the component industry: they can't know the "situation" (here "delete-user") so they can't
 bring us something correct as "a component". Unless... you start to use JS theming. If you bring the Icon as a
 JS variable (from a JS theme), you don't care anymore to use a specific icon component as you can change it when
-you change theme.
+you change theme, this would give something like :
+
+```jsx
+<Icon type={myTheme.myButton} />
+```
 
 That is how I understand the situation today, but I am not sure to really understand the craziness of the
 frontend development...
